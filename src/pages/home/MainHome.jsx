@@ -63,7 +63,7 @@ const Home = () => {
                   <img className="w-79 h-119 hover:w-80 hover:h-122 transition-all duration-1000" src={Magic_of_tea_2} />
                   </div>
                 </div>
-                <div className="font-serif text-3xl px-15 flex flex-col gap-5">
+                <div className="font-serif text-3xl md:px-15 flex flex-col gap-5">
                   <p>100% Organic</p>
                   <p className="text-lg text-gray-600">Et malesuada fames ac turpis egestas maecenas pharetra convallis met nisl purus.</p>
                   <p>High Quality</p>
