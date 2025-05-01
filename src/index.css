@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+
+.grechen-fuemen-regular {
+  font-family: "Grechen Fuemen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-saira {
+  font-family: 'Saira', sans-serif;
+}
+.font-Arimo{
+  font-family: "Arimo", sans-serif;
+}  
+.font-tangerine{
+  font-family: "Tangerine";
+}
+
+.text-custom{
+  color:#7f9f3e;
+}
+.bg-custum{
+  background-color: #A7B28F;
+}
+
+.font-kalam {
+  font-family: "Kalam", cursive;
+}
