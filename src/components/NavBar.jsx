@@ -31,23 +31,16 @@ const NavBar = () => {
 
           <div className="p-3">
              {NavBar_data.map((item, id) => (
-              <div onClick={()=>{toggleSection(item.title,true)}} 
-                // key={id}
-                // onMouseEnter={()=>{toggleSection(item.title,true)}}
-                // onMouseLeave={()=>{toggleSection(item.title,false)}}
-                >
+              <div onClick={()=>{toggleSection(item.title,true)}}>
             
                  <div className="w-max h-max py-1 text-white hover:text-green-500 cursor-pointer">
                   {item.title}
-                </div>
+                 </div>
 
                 {item.first_level && (
                   <div className={`flex flex-col gap-4 shadow-2xl rounded-lg justify-center items-center ${isOpened[item.title] ? "block" : "hidden"}`}>
                     {item.first_level.map((sub, i) => (
-                     <div className="flex w-full" key={i} onClick={()=>{toggleSection(su.title,true)}} 
-                      // onMouseEnter={()=>{toggleSection(sub.title,true)}}
-                      // onMouseLeave={()=>{toggleSection(sub.title,false)}}
-                    >
+                     <div className="flex w-full" key={i} onClick={()=>{toggleSection(su.title,true)}} >
                   <div className=" text-white hover:text-gray-200 w-full">
                      <Link className="flex w-full justify-between p-2 px-7 items-center"to={sub.path}>
                        {sub.title}

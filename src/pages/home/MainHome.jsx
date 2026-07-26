@@ -7,7 +7,7 @@ import Magic_of_tea_2 from "../../assets/images/h1-img4.jpg"
 import the_art_of_tea from "../../assets/images/h1-img5.jpg"
 import The_tea_cup_of_life from "../../assets/images/h1-img6-2.jpg"
 import { Our_Unique_Tea_Blends ,Popular } from "../../components/Props"
-import { Tea_blend,Popular_data } from '../../constant/Home_data'
+import { Popular_data } from '../../constant/Home_data'
 import { useNavigate } from 'react-router-dom'
 import SimpleCarouselWithButtons from '../../components/SimpleCarouselWithButtons'
 
